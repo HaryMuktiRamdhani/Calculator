@@ -7,16 +7,28 @@ Kalkulator web yang dibangun dengan HTML, CSS, dan JavaScript murni. Tanpa frame
 ![JavaScript](https://img.shields.io/badge/JavaScript-2c302c?style=flat-square&logo=javascript&logoColor=ED591E)
 ![Dependensi](https://img.shields.io/badge/dependensi-nol-ED591E?style=flat-square)
 
-**[Demo](#demo)** &nbsp;/&nbsp; **[Fitur](#fitur)** &nbsp;/&nbsp; **[Keyboard](#kontrol-keyboard)** &nbsp;/&nbsp; **[Cara Kerja](#cara-kerja)** &nbsp;/&nbsp; **[Struktur](#struktur)** &nbsp;/&nbsp; **[Menjalankan](#menjalankan)**
+**[Demo](#demo)** &nbsp;/&nbsp; **[Simulasi](#simulasi-interaktif)** &nbsp;/&nbsp; **[Fitur](#fitur)** &nbsp;/&nbsp; **[Keyboard](#kontrol-keyboard)** &nbsp;/&nbsp; **[Cara Kerja](#cara-kerja)** &nbsp;/&nbsp; **[Struktur](#struktur)** &nbsp;/&nbsp; **[Menjalankan](#menjalankan)**
 
 ## Demo
 
 <p align="center">
-  <img src="docs/demo.gif" alt="Demo kalkulator yang diputar berulang: perkalian, pembagian, backspace, dan pesan error" width="360">
+  <img src="https://raw.githubusercontent.com/HaryMuktiRamdhani/Tugas-Calculator/main/docs/screenshot.png" alt="Tampilan kalkulator yang menampilkan hasil 12 x 4 + 8 = 56" width="380">
 </p>
 
 <p align="center">
-  <sub>Diputar berulang: <code>12 x 4 + 8</code>, <code>9 ÷ 4</code>, <code>500 ⌫ + 25</code>, dan ekspresi tidak valid yang menampilkan <code>Error</code></sub>
+  <sub>Tampilan kalkulator setelah menghitung <code>12 x 4 + 8</code></sub>
+</p>
+
+## Simulasi Interaktif
+
+Animasi di bawah menjalankan kalkulator secara otomatis dan berulang. Tombol yang ditekan diberi lingkaran oranye, dan layar berubah mengikuti setiap langkah.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HaryMuktiRamdhani/Tugas-Calculator/main/docs/simulasi.svg" alt="Simulasi kalkulator beranimasi: perkalian, pembagian, backspace, dan pesan error" width="380">
+</p>
+
+<p align="center">
+  <sub>Urutan simulasi: <code>12 x 4 + 8</code> &rarr; <code>9 ÷ 4</code> &rarr; <code>500 ⌫ + 25</code> &rarr; <code>5 +</code> (menampilkan <code>Error</code>)</sub>
 </p>
 
 ## Fitur
@@ -102,7 +114,8 @@ flowchart LR
 ```
 .
 ├── docs/
-│   └── demo.gif
+│   ├── screenshot.png
+│   └── simulasi.svg
 └── tugas membuat kalkulator/
     ├── index.html     Struktur dan tombol kalkulator
     ├── style.css      Tampilan
